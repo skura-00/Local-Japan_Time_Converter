@@ -1,6 +1,5 @@
 # Local-Japan_Time_Converter
 
-<h1>Local-Japan Time Converter</h1>
 <p>You can convert your local time (local time of your computer) to Japan time.</p>
 <p>I created this extension to improve work efficiency for my part-time job.</p>
 
