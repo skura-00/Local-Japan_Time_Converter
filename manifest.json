@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "version": "1.0.0",
+  "name": "Time Converter",
+  "description": "Convert Local time (local time of your computer) to Japan time",
+  "author": "Sachi K",
+  "action": {
+    "default_icon": "img/clock.png",
+    "default_popup": "popup.html",
+    "default_title": "Japan Time Converter Extension"
+  },
+  "permissions": ["activeTab"]
+}

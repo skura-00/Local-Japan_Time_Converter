@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Local-Japan Time Converter</title>
+  <style type="text/css">
+    body 
+    {
+      width: 340px;
+      height: 300px;
+      font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", "ＭＳ ゴシック" , "MS Gothic", "Noto Sans CJK JP", TakaoPGothic, sans-serif;
+    }
+    p {
+      font-size: 14px;
+    }
+    input {
+      background-color: #e6e3d3;
+      border-top-style: hidden;
+      border-right-style: hidden;
+      border-left-style: hidden;
+      border-bottom-style: hidden;
+    }
+    p,input {
+      max-width: 50px;
+      min-height: 20px;
+      float: left;
+      margin:1px;
+      font-size: 15px;
+    }
+    div {
+      position: relative;
+      z-index: 2;
+    }
+    img {
+      position: relative;
+      z-index: 1;
+    }
+    button {
+      background-color: #314960;
+      color:white;
+      font-size:14px;
+      border:none;
+      padding: 10px;
+      position:fixed;
+      bottom:15px; 
+      right: 150px;
+      border-radius: 8px;
+    }
+  </style>
+  <script src="popup.js"></script>
+</head>
+<body>
+  <div style="width:100%; height:120px; background-color:#314960;" >
+    <div style="position: absolute; margin-top:30px; margin-left:60px;">
+    <img src="img/earth.png" width="65px" alt="Canadian flag">
+    <img src="img/arrow.png" width="70px" alt="arrow">
+    <img src="img/Japan.png" width="70px" alt="Japanese flag">
+  </div></div>
+  
+  
+  <div style="margin-top:15px; text-align:center;">
+    <div style="margin-bottom: 5px; font-size:16px;">変換したい時間を入力してください。</div>
+    <div style="margin-left:6%; margin-top:10px;">
+      <input type="number" id="year" value="2022" min="2000">
+      <p>年</p>
+      <input type="number" id="month" value="9" min="1" max="12">
+      <p>月</p>
+      <input type="number" id="day" value="1" min="1" max="31">
+      <p>日</p>
+      <input type="number" id="hour" value="1" min="0" max="24">
+      <p>時</p>
+      <input type="number" id="minute" value="0" min="0" max="59">
+      <p>分</p>
+    </div>
+    
+  </div>
+
+  <div id="box" style="position:absolute; top:70%; text-align:center; margin-left:25%; font-size:16px;"></div>
+
+  <button id="convert" >Convert</button>
+</body>
+</html>
