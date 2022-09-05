@@ -55,3 +55,30 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
+document.addEventListener('DOMContentLoaded', function() {
+  const clicked = document.getElementById("convert");
+
+  clicked.addEventListener('click', function() {
+    const yr = document.getElementById("year2").value;
+    const mon = document.getElementById("month2").value-1;
+    const day = document.getElementById("day2").value;
+    const hr = document.getElementById("hour2").value;
+    const min = document.getElementById("minute2").value;
+
+    let isError = errorValue(yr,mon,day,hr,min);
+
+    const d = new Date(yr,mon,day,hr,min);
+    if(isError) 
+      document.getElementById("box2").innerHTML = "Error: Invalid input";
+    else 
+      document.getElementById("box2").innerHTML = d.toLocaleString('ja-JP',
+      {
+        timeZone:'Japan',
+        year: 'numeric',
+        month: '2-digit',
+        day: '2-digit',
+        hour: '2-digit',
+        minute: '2-digit',
+      });
+  })
+});
