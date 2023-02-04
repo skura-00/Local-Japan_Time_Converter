@@ -1,7 +1,9 @@
 # Local-Japan Time Converter
 
 You can convert local time of your computer to Japan time.<br/>
-Since I haven't uploaded it to Chrome store, please download .zip and add to chrome://extensions to use this extension.
+
+The link for chrome web store:
+<a href="https://chrome.google.com/webstore/detail/time-converter/mebdmlncdecclclihlgknnolinodnjep?hl=en">リンク/link</a>
 
 ![timeConverter](https://user-images.githubusercontent.com/105990444/188405771-864eb11c-e8e8-4510-9e24-4312feddc445.gif)
 
