@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "version": "3.0",
-  "name": "Time Converter",
+  "name": "Japan Time Converter",
   "description": "Convert Local time (local time of your computer) to Japan time",
   "author": "Sachi K",
   "action": {
