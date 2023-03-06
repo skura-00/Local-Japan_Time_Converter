@@ -7,6 +7,10 @@ The link for chrome web store:
 
 ![timeConverter](https://user-images.githubusercontent.com/105990444/188405771-864eb11c-e8e8-4510-9e24-4312feddc445.gif)
 
+# Update ver. 3.1
+Feb 3, 2023
+- updated the extention name
+
 # Update ver. 3.0
 Feb 3, 2023
 - display current date and time when window opens
